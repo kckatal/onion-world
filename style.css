@@ -304,6 +304,15 @@ nav {
 }
 
 /* Recipes */
+.btn-wrap.is-recipes {
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1.5rem;
+}
+
 .recipe-card-grid {
   display: flex;
   gap: 1rem;
@@ -471,6 +480,10 @@ nav {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .btn-wrap.is-recipes {
+    justify-content: start;
+  }
+
   .recipe-card-grid {
     flex-direction: column;
   }
@@ -492,7 +505,7 @@ nav {
   footer {
     text-align: center;
   }
-  .row.is-footer {
+  .row.mb-no-gap {
     gap: 0;
   }
 

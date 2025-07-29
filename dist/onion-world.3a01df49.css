@@ -286,6 +286,15 @@ nav {
   margin-bottom: 0;
 }
 
+.btn-wrap.is-recipes {
+  justify-content: flex-end;
+  align-items: end;
+  width: 100%;
+  height: 100%;
+  padding-bottom: 1.5rem;
+  display: flex;
+}
+
 .recipe-card-grid {
   flex-wrap: none;
   justify-content: space-between;
@@ -438,6 +447,10 @@ nav {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .btn-wrap.is-recipes {
+    justify-content: start;
+  }
+
   .recipe-card-grid {
     flex-direction: column;
   }
@@ -460,7 +473,7 @@ nav {
     text-align: center;
   }
 
-  .row.is-footer {
+  .row.mb-no-gap {
     gap: 0;
   }
 

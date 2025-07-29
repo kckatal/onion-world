@@ -181,9 +181,18 @@
 
   <section class="section recipes">
     <div class="container">
-      <h2 class="section-title">Onion-Forward Recipes</h2>
-      <p class="section-subtitle">From comforting classics to bold new bites, these dishes celebrate the onion in all
-        its glory.</p>
+      <div class="row mb-no-gap">
+        <div class="col lg">
+          <h2 class="section-title">Onion-Forward Recipes</h2>
+          <p class="section-subtitle">From comforting classics to bold new bites, these dishes celebrate the onion in all
+            its glory.</p>
+        </div>
+        <div class="col sm">
+          <div class="btn-wrap is-recipes">
+            <button id="newRecipesBtn" class="btn secondary">Get New Recipes</button>
+          </div>
+        </div>
+      </div>
       <div class="recipe-card-grid">
         <!-- Recipe cards will be inserted here by JavaScript -->
       </div>
@@ -218,7 +227,7 @@
   <footer class="section footer">
     <div class="container">
       <hr>
-      <div class="row is-footer">
+      <div class="row mb-no-gap">
         <div class="col">
           <div class="footer-logo">
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
@@ -257,7 +266,7 @@
           </ul>
         </div>
       </div>
-      <p class="footer-text">© 2025 The Onion Appreciation Society. All rights reserved.</p>
+      <p class="footer-text">© <span id="currentYear"></span> The Onion Appreciation Society. All rights reserved.</p>
     </div>
   </footer>
 
