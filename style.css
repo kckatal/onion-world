@@ -37,6 +37,14 @@ h1 {
   margin-bottom: 1rem;
 }
 
+.h1 {
+  font-size: 3rem;
+}
+
+h1 section {
+  font-size: 3rem;
+}
+
 h3 {
   margin-bottom: 0.5rem;
   margin-top: 0;
