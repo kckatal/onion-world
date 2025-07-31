@@ -82,7 +82,8 @@ p {
   border: 1px solid #262626;
   cursor: pointer;
   text-decoration: none;
-  font-size: .8 rem;
+  font-family: inherit;
+  font-size: .8rem;
   transition: background-color 0.3s;
 }
 

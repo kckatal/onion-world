@@ -76,10 +76,11 @@ p {
 .btn {
   color: #fff;
   cursor: pointer;
-  font-size: .8 rem;
   background-color: #262626;
   border: 1px solid #262626;
   padding: 10px 20px;
+  font-family: inherit;
+  font-size: .8rem;
   text-decoration: none;
   transition: background-color .3s;
 }

@@ -1,6 +1,7 @@
 //Global variables
 const menuBtn = document.querySelector('.mobile-menu');
 const menu = document.querySelector('.nav-list');
+const newRecipesBtn = document.getElementById('newRecipesBtn');
 // Open the navigation menu
 function openNavigation() {
     menuBtn.setAttribute("aria-expanded", "true");
@@ -81,7 +82,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load initial recipes
     loadRandomRecipes();
     // Add event listener to "Get New Recipes" button
-    const newRecipesBtn = document.getElementById('newRecipesBtn');
     newRecipesBtn.addEventListener('click', loadRandomRecipes);
 });
 
